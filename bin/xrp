@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+require 'bundler/setup'
+
+Bundler.require
+
+require 'pry'
+
+require_relative "../lib/xrp"
+require_relative "../lib/scraper"
+require_relative "cli.rb"
